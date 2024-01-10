@@ -46,6 +46,11 @@ ul>.logo{
     border-right: 1px solid #0000001F;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 footer{
     background-color: #E0E1E1;
     display: flex;
