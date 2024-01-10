@@ -1,0 +1,65 @@
+
+html,body{
+    height: 100%;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    display: grid;
+    grid-template-rows: 56px 1fr 40px 40px;
+}
+header{
+    /* background: url(assets/header\ pattern\ image.png) repeat #25313F; */
+    background-color: #25313F;
+    padding: 0px;
+    border-bottom: 3px solid #3AC7EC;
+}
+
+header>ul{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+ul>.logo{
+    margin-right: auto;
+}
+
+.aboutContactUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F7A54;
+    font-size: 14px;
+}
+.aboutContactUs > *{
+    padding: 0 8px;
+} 
+.aboutContactUs > a:first-child{
+    border-right: 1px solid #0000001F;
+}
+
+footer{
+    background-color: #E0E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > *{
+    padding: 0 8px;
+    font-size: 12px;
+    color: #616161;
+}
+footer > .copyright{
+    border-left: 1px solid #0000001F;
+}
+footer > .name{
+    font-weight: bold;
+}
